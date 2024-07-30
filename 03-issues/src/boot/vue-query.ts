@@ -6,6 +6,6 @@ import { VueQueryPlugin } from '@tanstack/vue-query'
 export default boot(async ({ app, }) => {
   // something to do
   VueQueryPlugin.install(app, {
-      //Configuraciones
+    //Configuraciones
   });
 })
