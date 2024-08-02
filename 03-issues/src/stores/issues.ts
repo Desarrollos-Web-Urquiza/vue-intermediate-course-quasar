@@ -1,7 +1,7 @@
 import { ref, computed } from 'vue';
 import { defineStore } from 'pinia';
 
-export const useIssuesStore = defineStore('counter', () => {
+export const useIssuesStore = defineStore('issues', () => {
 
     //TODO: arreglar tipo de dato
     const state = ref(''); // all =  '', open, closed
