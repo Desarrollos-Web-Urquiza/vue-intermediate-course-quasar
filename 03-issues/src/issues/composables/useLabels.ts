@@ -7,7 +7,7 @@ const getLabels = async():Promise<Label[]> => {
     return data;
 }
 
-const useLabel = () => {
+const useLabels = () => {
 
     const labelsQuery = useQuery({
         queryKey: ['labels'],
@@ -16,8 +16,8 @@ const useLabel = () => {
     });
 
     return {
-
+        labelsQuery
     }
 }
 
-export default useLabel;
+export default useLabels;
