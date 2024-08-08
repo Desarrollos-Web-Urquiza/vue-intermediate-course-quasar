@@ -1,5 +1,6 @@
 # IssuesApp (issues-app)
 
+A Quasar Project
 
 ## Install the dependencies
 ```bash
@@ -14,8 +15,12 @@ quasar dev
 ```
 
 
-### Configure ENV variables
-Copy ```.env.template``` and rename it as ```.env```
+### Lint the files
+```bash
+yarn lint
+# or
+npm run lint
+```
 
 
 ### Format the files
@@ -31,3 +36,6 @@ npm run format
 ```bash
 quasar build
 ```
+
+### Customize the configuration
+See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
