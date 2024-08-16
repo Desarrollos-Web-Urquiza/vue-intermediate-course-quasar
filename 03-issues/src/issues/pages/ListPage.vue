@@ -28,7 +28,7 @@ const { issuesQuery } = useIssues();
             <!-- TODO: Loader -->
             <LoaderSpinner v-if="issuesQuery.isLoading.value" color="secondary" size="5rem" :thickness="6" />
 
-            <IssueList v-else />
+            <IssueList v-else :issues="issuesQuery.data?.value || []" />
         </div>
     </div>
 
